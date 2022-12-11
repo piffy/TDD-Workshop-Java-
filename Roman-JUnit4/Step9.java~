@@ -1,0 +1,13 @@
+
+    @Test
+    public void ilGameDeveEssereVintoDalPrimoGiocatoreCheAbbiAlmenoQuattroPuntiEDuePuntiDiVantaggio() {
+        game.puntoPer("Pippo");game.puntoPer("Pippo");game.puntoPer("Pippo");game.puntoPer("Pippo");
+        game.puntoPer("Pluto");game.puntoPer("Pluto");game.puntoPer("Pluto");
+        assertFalse(game.getPunteggio().equals("Pippo vince"));
+        assertFalse(game.getPunteggio().equals("Pluto vince"));
+        game.puntoPer("Pippo");
+        assertEquals(game.getPunteggio(), "Pippo vince");
+    }
+    
+
+

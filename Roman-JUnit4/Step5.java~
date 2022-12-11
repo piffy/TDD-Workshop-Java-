@@ -1,0 +1,8 @@
+
+    @Test
+    public void quarantaSDeveEssereIlDescrittorePerIlPunteggio3() {
+        game.puntoPer("Pippo");game.puntoPer("Pippo");game.puntoPer("Pippo");
+        assertEquals(game.getPunteggio(), "quaranta, zero");
+    }
+
+   

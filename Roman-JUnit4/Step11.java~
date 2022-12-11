@@ -1,0 +1,12 @@
+Create TieBreak, una classe derivata di Game
+
+Quindi create il relativo test tramite il comando
+	Click destro su TieBreak.java
+	Tools > Create/Update Test 
+	Click su [x] Public methods > [OK] > Junit 4.x > [Select]
+
+
+
+
+
+

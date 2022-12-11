@@ -1,0 +1,13 @@
+Create un nuovo progetto con formato dai cognomi della coppia
+Create un nuova classe, Romanizzazione
+Create lo scheletro JUnit della classe Romanizzazione:
+        NETBEANS:
+	Click destro su Romanizzazione.java
+	Tools > Create/Update Test 
+	Click su [x] Public methods > [OK] > Junit 4.x > [Select]
+ 	ECLIPSE: 
+	Click destro sulla Romanizzazione.java o [Shift-Alt-N]: 
+	(File > New ) > JUnit Test Case)
+	Selezionate Junit 4, quindi [Finish]. 
+	Al dialogo successivo, [OK]
+

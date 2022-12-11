@@ -1,0 +1,7 @@
+Create un nuovo progetto con formato dai cognomi della coppia
+Create un nuova classe, Game
+Create lo scheletro JUnit della classe Game:
+	Click destro su Game.java
+	Tools > Create/Update Test 
+	Click su [x] Public methods > [OK] > Junit 4.x > [Select]
+
