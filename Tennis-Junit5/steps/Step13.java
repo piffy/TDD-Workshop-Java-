@@ -1,34 +1,34 @@
 Create TieBreak, una classe derivata di Game
 
-Quindi create il relativo test tramite il comando (oramai dovreste sapere come si fa, ad ogni modo)
-	NETBEANS:
-	Click destro su TieBreak.java
-	Tools > Create/Update Test 
-	Click su [x] Public methods > [OK] > Junit 5.x > [Select]
-	
-	IDEA:
-	Click destro sul nome del progetto > New > Directory    e chiamatela test 
-	Click destro su directory test > Mark directory as      Test sources Root
-	Nel file TieBreak.java Click destro sulla PAROLA TieBreak  e premere [Alt]-[Invio] > Create test	
+        Quindi create il relativo test tramite il comando (oramai dovreste sapere come si fa, ad ogni modo)
+        NETBEANS:
+        Click destro su TieBreak.java
+        Tools > Create/Update Test
+        Click su [x] Public methods > [OK] > Junit 5.x > [Select]
 
-SostituiteTieBreakTest con questo
+        IDEA:
+        Click destro sul nome del progetto > New > Directory    e chiamatela test
+        Click destro su directory test > Mark directory as      Test sources Root
+        Nel file TieBreak.java Click destro sulla PAROLA TieBreak  e premere [Alt]-[Invio] > Create test
+
+        SostituiteTieBreakTest con questo (nuovo, versione Junit 5)
 
 public class TieBreakTest {
-    
+
     TieBreak tieBreak;
 
-    @Before
+    @BeforeEach
     public void perTuttiITest() {
         tieBreak = new TieBreak("Pippo", "Pluto");
     }
-    
+
     @Test
     public void iPunteggiSonoNumerici() {
         assertEquals(tieBreak.getPunteggio(), "0, 0");
         tieBreak.puntoPer("Pippo");
         assertEquals(tieBreak.getPunteggio(), "1, 0");
     }
-
+    
     
 }
 
