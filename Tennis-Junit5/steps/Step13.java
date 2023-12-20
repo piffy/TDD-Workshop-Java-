@@ -4,12 +4,7 @@ Quindi create il relativo test tramite il comando (oramai dovreste sapere come s
 	NETBEANS:
 	Click destro su TieBreak.java
 	Tools > Create/Update Test 
-	Click su [x] Public methods > [OK] > Junit 4.x > [Select]
-
-        
-	Click destro su Game.java
-	Tools > Create/Update Test 
-	Click su [x] Public methods > [OK] > Junit 4.x > [Select]
+	Click su [x] Public methods > [OK] > Junit 5.x > [Select]
 	
 	IDEA:
 	Click destro sul nome del progetto > New > Directory    e chiamatela test 
