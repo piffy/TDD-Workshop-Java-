@@ -4,5 +4,5 @@
         game.puntoPer("Pippo");
         assertEquals(game.getPunteggio(), "vantaggio Pippo");
         game.puntoPer("Pippo");
-        assertEquals(game.getPunteggio(), "vittoria Pippo");
+        assertEquals(game.getPunteggio(), "Pippo vince");
     }
