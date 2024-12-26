@@ -1,3 +1,8 @@
+***********************************************************
+*  USER STORY 8                                           *
+*  Come vincitore,voglio vedere il mio nome sul           *
+*  segnapunti per inizare a festeggiare                   *
+***********************************************************
 
 @Test
     public void VittoriaSenzaVantaggi() {

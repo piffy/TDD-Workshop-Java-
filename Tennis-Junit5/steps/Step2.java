@@ -1,3 +1,10 @@
+***********************************************************
+*  USER STORY 2                                           *
+*  Come arbitro, voglio controllare che il segnapunti     *
+*  funzioni correttamente a inizio partita                *
+***********************************************************
+
+
 Aggiungere in fondo a GameTest.java, prima dell'ultima graffa:
 
     @Test
@@ -6,4 +13,4 @@ Aggiungere in fondo a GameTest.java, prima dell'ultima graffa:
     }
 
 
-Run Gametest.java darà errore. Risolvete.
+Run Gametest.java darà errore. Risolvete (30 sec.).

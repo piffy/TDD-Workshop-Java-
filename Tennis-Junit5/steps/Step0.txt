@@ -15,5 +15,17 @@ Create lo scheletro JUnit della classe Game:
 	Scrivere dentro la classe test questo metodo
 	   @Test
        void prova() {fail("errore");}
-       Run > "Run GameTest.java" deve dare errore
+
+           Se @Test è scritto in rosso: 
+		Click sulla parola Test
+                [Alt]-[Invio]
+
+	Click destro su "GameTest.java" > Run 'Gametest.java'
+
+	--> Deve dare errore. 
+
+	Passare allo step successivo
+
+
+
        

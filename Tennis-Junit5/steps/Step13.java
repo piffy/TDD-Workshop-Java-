@@ -1,4 +1,12 @@
+***********************************************************
+*  USER STORY 11                                          *
+*  Come arbitro, voglio leggere il risultato corretto     *
+*  del TieBreak                                           *
+***********************************************************
+
+
 Create TieBreak, una classe derivata di Game
+
 
         Quindi create il relativo test tramite il comando (oramai dovreste sapere come si fa, ad ogni modo)
         NETBEANS:
@@ -7,11 +15,9 @@ Create TieBreak, una classe derivata di Game
         Click su [x] Public methods > [OK] > Junit 5.x > [Select]
 
         IDEA:
-        Click destro sul nome del progetto > New > Directory    e chiamatela test
-        Click destro su directory test > Mark directory as      Test sources Root
         Nel file TieBreak.java Click destro sulla PAROLA TieBreak  e premere [Alt]-[Invio] > Create test
-
-        SostituiteTieBreakTest con questo (nuovo, versione Junit 5)
+        SostituiteTieBreakTest con questo (versione Junit 5)
+        Se necessario importate BeforeEach e Test con [Alt]+[Invio]
 
 public class TieBreakTest {
 
@@ -24,9 +30,9 @@ public class TieBreakTest {
 
     @Test
     public void iPunteggiSonoNumerici() {
-        assertEquals(tieBreak.getPunteggio(), "0, 0");
+        assertEquals("0, 0", tieBreak.getPunteggio());
         tieBreak.puntoPer("Pippo");
-        assertEquals(tieBreak.getPunteggio(), "1, 0");
+        assertEquals("1, 0", tieBreak.getPunteggio());
     }
     
     
